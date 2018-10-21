@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addnewlist"
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text=" Add Items " />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/shopping_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</LinearLayout>

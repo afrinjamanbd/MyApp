@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:id="@+id/addlist_design"
+    android:layout_margin="10dp"
+    android:weightSum="5"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Item Name"/>
+
+    <TextView
+        android:id="@+id/max"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="0.00"/>
+
+    <ImageView
+        android:id="@+id/bin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/bin" />
+
+
+
+</LinearLayout>

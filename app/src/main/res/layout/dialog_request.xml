@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="@color/grey"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Do you want to hire me?"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialogreqimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="2dp" />
+
+
+    <TextView
+        android:id="@+id/dialognamereq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Shopper Name"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/dialogdistancereq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Distance"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/dialogyesreq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="No"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/white"
+            android:background="#C62828"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/dialognoreq"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Yes"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

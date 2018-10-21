@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".addlist">
+
+
+
+        <TextView
+            android:id="@+id/titlelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Name"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:padding="8dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/newitemname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:hint="New Item"/>
+
+            <EditText
+                android:id="@+id/newitemprce"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:hint="$"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:src="@drawable/addbutton" />
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/additemlist_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

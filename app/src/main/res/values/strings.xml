@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My App</string>
+
+    <string name="find_shopper">Find person</string>
+    <string name="Reg_Success">Registration is successful</string>
+    <string name="shopping_item">Shopping Item</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="shopperlist">Request list</string>
+    <string name="username">User Name</string>
+    <string name="userid">User Id</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="work_as_a_shopper">Work as a shopper</string>
+    <string name="password">Password</string>
+    <string name="term_policy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl mi, auctor id tempor tempus, ultrices id nisi. Proin elementum tempus turpis in malesuada. Donec venenatis mauris nisi, vestibulum molestie purus consequat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec consectetur enim. Fusce non dolor libero. Proin finibus feugiat est id ullamcorper. Pellentesque pharetra dolor sed imperdiet finibus. Donec sed tempus tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl mi, auctor id tempor tempus, ultrices id nisi. Proin elementum tempus turpis in malesuada. Donec venenatis mauris nisi, vestibulum molestie purus consequat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec consectetur enim. Fusce non dolor libero. Proin finibus feugiat est id ullamcorper. Pellentesque pharetra dolor sed imperdiet finibus. Donec sed tempus tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisl mi, auctor id tempor tempus, ultrices id nisi. Proin elementum tempus turpis in malesuada. Donec venenatis mauris nisi, vestibulum molestie purus consequat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec consectetur enim. Fusce non dolor libero. Proin finibus feugiat est id ullamcorper. Pellentesque pharetra dolor sed imperdiet finibus. Donec sed tempus tortor.</string>
+    <string name="Reg_Failed">Registration Failed</string>
+    <string name="title_activity_nav">My App</string>
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="nav_header_title">User Name</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Menu header</string>
+    <string name="action_settings">Settings</string>
+    <string name="wannasign_up">Sign Up?</string>
+    <string name="subject">Subject</string>
+</resources>

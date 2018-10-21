@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="300dp"
+    android:background="@color/grey"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Enter Your List Name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/listname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="3dp"
+        android:textStyle=""
+        android:textSize="18dp"
+        android:hint="enter list name"
+        android:textColorHint="#757575"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/dialogcanceladdlist"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/white"
+            android:background="#C62828"
+            android:padding="5dp"/>
+
+        <Button
+
+            android:id="@+id/dialogproceedaddlist"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Proceed"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>
